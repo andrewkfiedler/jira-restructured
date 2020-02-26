@@ -1,0 +1,32 @@
+.wariai-stats {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
+  line-height: 1rem;
+  opacity: 0.6;
+  div {
+    display: inline;
+  }
+}
+
+.context-sentence-group {
+  font-size: 36px;
+}
+
+.context-sentence-group p:last-of-type {
+  filter: blur(10px) !important;
+}
+
+.context-sentence-group p:last-of-type:hover {
+  filter: none !important;
+}
+
+#information {
+  padding-bottom: 50vh;
+}
